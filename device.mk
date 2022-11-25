@@ -36,15 +36,6 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-service
 
 PRODUCT_PACKAGES += \
-    bootctrl.RMX3310
-
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.RMX3310 \
-    libgptutils \
-    libz \
-    libcutils
-
-PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh \
     update_engine \
